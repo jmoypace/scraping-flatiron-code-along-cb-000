@@ -6,6 +6,8 @@ attr_accessor :title, :schedule, :description
 def self.all
 @@all
 end
-
+def initialize
+    @@all << self
+  end
 
 end
