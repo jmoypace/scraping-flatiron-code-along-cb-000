@@ -8,6 +8,6 @@ def self.all
 end
 def initialize
     @@all << self
-  end
+end
 
 end
